@@ -1,8 +1,35 @@
-# SDCC stuff
-*.lnk
-*.lst
-*.map
-*.mem
-*.rel
-*.rst
-*.sym
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+### Pycharm ###
+.idea
+
+### Pycharm ###
+.fleet
+
+### macOS ###
+.DS_Store
+
+# Docker
+*.docker
